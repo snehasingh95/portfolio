@@ -34,8 +34,10 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #414141;
-    --pink: #ff3258;
+/*    --black: #414141;*/
+    --black: #4D4D4D;
+/*    --pink: #ff3258;*/
+    --pink: #F23054;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -770,6 +772,6 @@ img {
 
 .contact-href {
     text-decoration: none;
-    color: #ff3258;
+    color: var(--pink);
 }
 
